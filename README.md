@@ -1,5 +1,5 @@
 # Flip game
-Predict the nim-value of flip game using neural network implemented via Theano.
+Predict the nim-value of flip game using neural network implemented in Theano.
 ## What is a flip game?
 A one dimensional(1D) flip game is defined to be a `'01'` string of a given length `n`. A valid move of the flip game is flipping a consecutive `'11'` to `'00'`. Two players in turn make moves in a game until there is no valid move available. The player who makes the last move wins the game. A two dimensional(2D) `m` by `n` flip game is defined similarly, in which a valid move is to flip a consecutive `'11'`, vertically or horizontally, to `'00'`.
 ## The nim-value of a flip game
